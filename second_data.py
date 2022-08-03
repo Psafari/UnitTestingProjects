@@ -7,7 +7,7 @@ from statsmodels.tsa.stattools import adfuller
 import pmdarima as pmd
 
 
-
+#query api and retrieve consumption data
 def query(payload):
     url = "https://enersmart.sperixlabs.org/balance"
     headers = {'Accept': '*/*',
