@@ -13,7 +13,7 @@ def read_Sdata(ticker):
 class TestReadSdata(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        self.dataFrame = read_Sdata('^DJI')
+        self.dataFrame = read_Sdata('^DJI') 
         
 #To ensure that all expected columns are present in the returned dataframe        
     def test_columnsPresent(self):
