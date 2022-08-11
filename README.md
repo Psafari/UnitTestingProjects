@@ -1,3 +1,5 @@
+AFARI PRINCE - 3578218
+
 This repo contains unit testing procedures performed on at least one project
 The first is mainly data analytics related,
 The second is the backend implementation of a blog crud application using python flask.
